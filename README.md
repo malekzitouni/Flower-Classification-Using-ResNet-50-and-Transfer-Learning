@@ -54,12 +54,11 @@ After passing through the ResNet50 base, the output feature maps are fed into a 
 Fully Connected Layers:
 
 The model includes several fully connected (dense) layers:
-Dense Layer 1: 256 neurons with ReLU activation. This layer captures complex interactions between features learned from the ResNet50.
-Dropout Layer 1: A dropout rate of 20% is applied to prevent overfitting by randomly dropping units during training.
-Dense Layer 2: 128 neurons with ReLU activation, further learning complex patterns.
-Dropout Layer 2: Another dropout layer with a 20% rate.
-Dense Layer 3: 64 neurons with ReLU activation to learn finer details from the preceding layers.
-Dropout Layer 3: A third dropout layer with a 20% rate.
-Output Layer:
+* Dense Layer 1: 256 neurons with ReLU activation. This layer captures complex interactions between features learned from the ResNet50.
+* Dropout Layer 1: A dropout rate of 20% is applied to prevent overfitting by randomly dropping units during training.
+* Dense Layer 2: 128 neurons with ReLU activation, further learning complex patterns.
+* Dropout Layer 2: Another dropout layer with a 20% rate.
+* Dense Layer 3: 64 neurons with ReLU activation to learn finer details from the preceding layers.
+* Dropout Layer 3: A third dropout layer with a 20% rate.
 
-The final layer is a Dense Layer with Softmax Activation that outputs probabilities for each of the five classes (daisy, dandelion, rose, sunflower, tulip). This layer translates the learned features into class predictions.
+* Output Layer: The final layer is a Dense Layer with Softmax Activation that outputs probabilities for each of the five classes (daisy, dandelion, rose, sunflower, tulip). This layer translates the learned features into class predictions.
