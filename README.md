@@ -6,6 +6,8 @@ It is an innovative neural network created for image classification.
 The ResNet model architecture allows the training error to be reduced with a deeper network through connection skip.
 
 Residual neural networks ignore some connections and make double or triple layer jumps that contain non-linearities (ReLU)
+![ResNet50](https://github.com/user-attachments/assets/f6337e4d-c832-4b48-a864-2d9b3a8b06ea)
+
 ## Transfer Learning
 -If a model is trained on a database, there is no need to re-train the model from scratch to fit a new set of similar data.
 
