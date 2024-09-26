@@ -36,7 +36,7 @@ The dataset contains 5 types of flowers:
 
 ### Model Architecture Description
 ###### Overview
-The model is built using transfer learning with the ResNet50 architecture, a deep convolutional neural network known for its ability to learn complex features while mitigating the vanishing gradient problem through skip connections (also known as residual connections). The model is tailored to classify images of flowers into five distinct categories: daisies, dandelions, roses, sunflowers, and tulips.
+The model leverages transfer learning using the ResNet50 architecture, implemented in a Vertex AI instance within Jupyter Lab. ResNet50 is a deep convolutional neural network renowned for its ability to learn complex features while addressing the vanishing gradient problem through skip connections (residual connections). This model is specifically designed to classify images of flowers into five distinct categories: daisies, dandelions, roses, sunflowers, and tulips.
 
 ###### Architecture Components
 Base Model (ResNet50):
